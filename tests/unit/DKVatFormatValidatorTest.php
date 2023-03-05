@@ -64,47 +64,47 @@ class DKVatFormatValidatorTest extends TestCase
             ],
             [
                 'vatNumber' => 'DK123456789',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => 'DK1234567',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => '123456789',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => '1234567',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => 'Dk12345678',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => 'dK12345678',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => 'dk12345678',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => 'DE12345678',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => 'DK12345678A',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => '1',
-                'isValid' => true,
+                'isValid' => false,
             ],
             [
                 'vatNumber' => '',
-                'isValid' => true,
+                'isValid' => false,
             ],
         ];
     }
