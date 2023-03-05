@@ -3,6 +3,7 @@
 namespace rocketfellows\DKVatFormatValidator\tests\unit;
 
 use PHPUnit\Framework\TestCase;
+use rocketfellows\DKVatFormatValidator\DKVatFormatValidator;
 
 class DKVatFormatValidatorTest extends TestCase
 {
